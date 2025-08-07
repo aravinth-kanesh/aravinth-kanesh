@@ -20,5 +20,6 @@ Graduate software engineering roles for 2026 where I can apply my technical expe
   
 📫 How to reach me
 
-- Email: aravinth_kanesh@hotmail.com
-- LinkedIn: linkedin.com/in/aravinth-kaneshalingam
+Email: aravinth_kanesh@hotmail.com
+
+LinkedIn: linkedin.com/in/aravinth-kaneshalingam
