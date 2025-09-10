@@ -47,6 +47,15 @@
 
 ---
 
+## 📚 Currently Learning
+
+- **Machine Learning & Explainability** — feature engineering, SHAP, and pipeline optimisation in my Movie Revenue Predictor project  
+- **Cloud Deployment** — deploying ML models and full-stack apps on AWS / GCP  
+- **TypeScript & React** — improving production-level frontend skills during my internship  
+- **Data Engineering & Automation** — building ETL pipelines and automated preprocessing for AI projects
+
+---
+
 ## 🔥 Featured Projects 
 
 ### 🤖 LLM-Powered CV Matching Engine (Internship Project)  
