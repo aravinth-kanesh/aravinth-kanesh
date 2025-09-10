@@ -47,6 +47,8 @@
 
 ---
 
+## 🔥 Featured Projects 
+
 ### 🤖 LLM-Powered CV Matching Engine (Internship Project)  
 
 ![Completed](https://img.shields.io/badge/Status-Completed-4caf50?style=for-the-badge)  
