@@ -47,11 +47,10 @@
 
 ---
 
-## 🔥 Featured Projects  
+### 🤖 LLM-Powered CV Matching Engine <img src="https://img.icons8.com/ios-glyphs/24/000000/robot.png"/> (Internship Project)  
 
-### 🤖 LLM-Powered CV Matching Engine (Internship Project)  
-
-**Technology Stack:** Python, Flask, Groq API (LLM), Sentence-Transformers, scikit-learn, pandas, JavaScript, HTML5, CSS3, Bootstrap  
+**Status:** ![Completed](https://img.shields.io/badge/Status-Completed-4caf50?style=for-the-badge)  
+**Technology Stack:** Python, Flask, Groq API (LLM), Sentence-Transformers, scikit-learn, pandas, JavaScript, HTML5, CSS3, Bootstrap   
 
 - Developed a **full-stack web application** to intelligently match CVs to relevant jobs in creative industries, including film/TV, advertising and fashion  
 - Built an **AI-powered job matching engine**, combining **vector-based retrieval** (**Sentence-Transformers** & **cosine similarity**) with a **re-ranking model** evaluating weighted skills and experience alignment  
