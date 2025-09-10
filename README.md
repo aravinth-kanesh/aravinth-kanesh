@@ -1,5 +1,7 @@
 # 👋 Hi, I’m Aravinth Kaneshalingam  
 
+![Greeting](https://img.shields.io/badge/dynamic/json?color=blue&label=Hello!&query=%24.greeting&url=https://raw.githubusercontent.com/Aravinth-Kanesh/dynamic-greeting/main/greeting.json)
+
 🎓 Final-year **Computer Science** student at **King’s College London**  
 
 💡 Passionate about software engineering, AI systems and **scalable full-stack applications**
