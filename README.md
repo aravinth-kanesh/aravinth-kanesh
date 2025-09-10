@@ -1,7 +1,9 @@
 # 👋 Hi, I’m Aravinth Kaneshalingam  
 
 🎓 Final-year **Computer Science** student at **King’s College London**  
+
 💡 Passionate about software engineering, AI systems and **scalable full-stack applications**
+
 🚀 Seeking **Graduate Software Engineering roles in 2026**  
 
 ---
@@ -85,15 +87,10 @@ Linux · macOS · Windows
 
 ---
 
-## 📊 GitHub Stats  
-
-![Aravinth's GitHub stats](https://github-readme-stats.vercel.app/api?username=aravinth-kanesh&show_icons=true&theme=tokyonight&hide_border=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aravinth-kanesh&layout=compact&theme=tokyonight&hide_border=true)  
-
----
-
 ## 📫 Connect with Me
 
-📧 [aravinth_kanesh@hotmail.com](mailto:aravinth_kanesh@hotmail.com)  
-🔗 [linkedin.com/in/aravinth-kaneshalingam](https://www.linkedin.com/in/aravinth-kaneshalingam)  
+📧 [aravinth_kanesh@hotmail.com](mailto:aravinth_kanesh@hotmail.com)
+
+🔗 [linkedin.com/in/aravinth-kaneshalingam](https://www.linkedin.com/in/aravinth-kaneshalingam)
+
 💻 [github.com/aravinth-kanesh](https://github.com/aravinth-kanesh) 
