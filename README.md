@@ -87,10 +87,10 @@ Linux · macOS · Windows
 
 ---
 
-## 📫 Connect with Me
+## 📫 Connect with Me  
 
-📧 [aravinth_kanesh@hotmail.com](mailto:aravinth_kanesh@hotmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aravinth-kaneshalingam)  
 
-🔗 [linkedin.com/in/aravinth-kaneshalingam](https://www.linkedin.com/in/aravinth-kaneshalingam)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/aravinth-kanesh)  
 
-💻 [github.com/aravinth-kanesh](https://github.com/aravinth-kanesh) 
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:aravinth_kanesh@hotmail.com)
