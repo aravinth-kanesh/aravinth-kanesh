@@ -1,0 +1,33 @@
+name: Update Dynamic Greeting
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # Runs every 6 hours
+  workflow_dispatch:       
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Update README
+        run: |
+          HOUR=$(TZ="Europe/London" date +%H)
+          if [ $HOUR -lt 12 ]; then
+            GREETING="☀️ Good morning!"
+          elif [ $HOUR -lt 18 ]; then
+            GREETING="🌤️ Good afternoon!"
+          else
+            GREETING="🌙 Good evening!"
+          fi
+          sed -i "1s/.*/# 👋 $GREETING I’m Aravinth Kaneshalingam/" README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update greeting"
+          git push
