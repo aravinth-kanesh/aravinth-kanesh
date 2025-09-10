@@ -65,7 +65,9 @@
 
 ---
 
-### 🎬 ShowbizPredictor: Movie Revenue Predictor (Ongoing)  
+### 🎬 ShowbizPredictor: Movie Revenue Predictor
+
+![In Progress](https://img.shields.io/badge/Status-In%20Progress-ff9800?style=for-the-badge)  
 
 **Technology Stack:** Python, scikit-learn, XGBoost, LightGBM, GradientBoosting, MLP, Streamlit, SHAP, Matplotlib/Seaborn/Plotly 
 
@@ -82,6 +84,8 @@
 ---
 
 ### 🏥 NHS Staff Rota Scheduler (University Group Project)  
+
+![Completed](https://img.shields.io/badge/Status-Completed-4caf50?style=for-the-badge)  
 
 **Technology Stack:** Python (Django), JavaScript, SQLite, Django ORM  
 
