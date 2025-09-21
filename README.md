@@ -65,8 +65,8 @@
 **Technology Stack:** Python, Flask, Groq API (LLM), Sentence-Transformers, scikit-learn, pandas, JavaScript, HTML5, CSS3, Bootstrap   
 
 - Developed a **full-stack web application** to intelligently match CVs to relevant jobs in creative industries, including film/TV, advertising and fashion  
-- Built an **AI-powered job matching engine**, combining **vector-based retrieval** (**Sentence-Transformers** & **cosine similarity**) with a **re-ranking model** evaluating weighted skills and experience alignment  
-- Created an **offline data pre-processing pipeline** to clean, enrich and **vectorise** CV/job data using an **LLM**
+- Built a **job matching engine**, combining **vector-based retrieval** (**Sentence-Transformers** & **cosine similarity**) with a **re-ranking model** evaluating weighted skills and experience alignment  
+- Created an **offline data pre-processing pipeline** to clean, enrich and **vectorise** job data using an **LLM**
 - Implemented a **dynamic frontend** with **input validation**, **real-time search** and **asynchronous backend communication**
 - Configured the backend with **Flask RESTful APIs** and **background task processing** for AI analysis  
 - Optimised the AI pipeline for **high-performance cloud deployment**, reducing processing time by over 95% (~75s → <2s)
