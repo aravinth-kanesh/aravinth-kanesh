@@ -78,19 +78,16 @@
 
 ### 🎬 ShowbizPredictor: Movie Revenue Predictor
 
-![In Progress](https://img.shields.io/badge/Status-In%20Progress-ff9800?style=for-the-badge)  
+![Completed](https://img.shields.io/badge/Status-Completed-4caf50?style=for-the-badge)  
 
 **Technology Stack:** Python, scikit-learn, XGBoost, LightGBM, GradientBoosting, MLP, Streamlit, SHAP, Matplotlib/Seaborn/Plotly 
 
-- Building a **movie revenue prediction pipeline**, handling **data processing**, **feature creation** and **model evaluation** 
-- Engineered features including **TF-IDF text vectorisation with SVD**, **multi-hot categorical encoding** and **composite numerical/date-based features**
-- Implemented and evaluated **RandomForest**, **GradientBoosting**, **XGBoost**, **LightGBM** and **MLP** models using **cross-validation**
-- Conducted exploratory and stage-wise **testing** in **Jupyter** notebooks, validating the pipeline at different phases  
-- Planning to deploy the model with **Streamlit**, using the existing feature pipeline to generate real-time predictions 
-- Integrated model explainability using **SHAP** and **permutation importance** to identify key revenue drivers and provide interpretable predictions  
-- Created interactive visualisations with **Matplotlib**, **Seaborn** and **Plotly**, and saved models with **Joblib** for reproducibility  
-
-🔗 *Repository will be made public upon completion of deployment and testing*
+- Architected an end-to-end ML pipeline to process, clean and transform over 15,000 movie records, handling missing values and preparing data for modeling
+- Engineered a sophisticated feature set by implementing TF-IDF vectorisation with SVD for text data, multi-hot encoding for categorical variables, and creating composite numerical and temporal features
+- Implemented and systematically evaluated regression models (Random Forest and LightGBM) using cross-validation to ensure robust performance
+- Created a multi-page interactive dashboard using Streamlit, featuring four distinct analysis modes for real-time prediction, model comparison, data insights and performance analytics
+- Integrated advanced model explainability (XAI) using SHAP to generate waterfall plots and feature importance charts, providing transparent and interpretable predictions
+- Developed a clean, modular codebase following modern software engineering practices, with a clear separation of concerns between the core ML logic (src/) and the application layer (pages/)
 
 ---
 
