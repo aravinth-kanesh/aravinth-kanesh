@@ -66,7 +66,7 @@
 
 - Developed a **full-stack web application** to intelligently match CVs to creative industry roles (film/TV, advertising, fashion)
 - Built a **job matching engine** using **Sentence-Transformers** & **cosine similarity**, with a **re-ranking model** for weighted skills and experience alignment
-- Implemented an **offline pre-processing** pipeline to extract, categorise and **vectorise** skills & responsibilities from a job role database using an **LLM*8
+- Implemented an **offline pre-processing** pipeline to extract, categorise and **vectorise** skills & responsibilities from a job role database using an **LLM**
 - Engineered **dynamic CV processing** on upload; extracted text from PDF/DOCX files and generated structured skill and experience profiles
 - Created a 'Work Credits' generation feature that uses a **custom LLM prompt** to parse a CV and auto-generate a categorised portfolio, complete with an **interactive editor** and a PDF export function built with **ReportLab**
 - Built a **responsive frontend** with real-time search, input validation and **asynchronous backend communication**, backed by **Flask RESTful APIs**
