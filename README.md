@@ -70,7 +70,7 @@
 - Engineered **dynamic CV processing** on upload; extracted text from PDF/DOCX files and generated structured skill and experience profiles
 - Created a 'Work Credits' generation feature that uses a **custom LLM prompt** to parse a CV and auto-generate a categorised portfolio, complete with an **interactive editor** and a PDF export function built with **ReportLab**
 - Built a **responsive frontend** with real-time search, input validation and **asynchronous backend communication**, backed by **Flask RESTful APIs**
-- **Optimised the AI pipeline** for **high-performance cloud deployment**, reducing processing time **from ~75s to <2s**
+- **Optimised the AI pipeline** by reducing processing time **from ~75s to <2s**, and deployed the web app on **Render** for **production-ready hosting**
   
 🔗 *Code not public due to internship IP; full details available in CV*
 
@@ -80,7 +80,7 @@
 
 ![Completed](https://img.shields.io/badge/Status-Completed-4caf50?style=for-the-badge)  
 
-**Technology Stack:** Python, scikit-learn, XGBoost, LightGBM, GradientBoosting, MLP, Streamlit, SHAP, Matplotlib/Seaborn/Plotly 
+**Technology Stack:** Python, scikit-learn, Random Forest, LightGBM, Streamlit, SHAP, Plotly 
 
 - Architected an end-to-end ML pipeline to process, clean and transform over 15,000 movie records, handling missing values and preparing data for modeling
 - Engineered a sophisticated feature set by implementing TF-IDF vectorisation with SVD for text data, multi-hot encoding for categorical variables, and creating composite numerical and temporal features
