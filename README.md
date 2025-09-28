@@ -11,10 +11,8 @@
 ## 🌟 About Me  
 
 - Strong academic record (**1st Class predicted**, 70%+ in all modules)  
-- Hands-on experience in full-stack development, **ML/AI**, and workflow automation 
-- Currently contributing to a **React + TypeScript + Vite frontend** during my internship, gaining experience enhancing a production-level codebase  
-- Building expertise in **machine learning**, **data analysis** and **predictive modelling** through projects like a Movie Revenue Predictor using **scikit-learn**
-- Passionate about building intelligent, user-focused software systems that solve meaningful problems
+- Hands-on experience in full-stack development, **ML/AI** and workflow automation
+- Enthusiastic about building intelligent, user-focused software systems that solve meaningful problems
 
 ---
 
@@ -44,15 +42,6 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=for-the-badge)
-
----
-
-## 📚 Currently Learning
-
-- **Machine Learning & Explainability** — feature engineering, SHAP, and pipeline optimisation in my Movie Revenue Predictor project  
-- **Cloud Deployment** — deploying ML models and full-stack apps on AWS / GCP  
-- **TypeScript & React** — improving production-level frontend skills during my internship  
-- **Data Engineering & Automation** — building ETL pipelines and automated preprocessing for AI projects
 
 ---
 
