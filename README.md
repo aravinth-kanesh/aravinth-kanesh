@@ -1,107 +1,39 @@
-# 👋 Hi, I’m Aravinth Kaneshalingam  
+# Aravinth Kaneshalingam
 
-🎓 Final-year **Computer Science** student at **King’s College London**  
+Final-year Computer Science student at King's College London (Predicted First Class). I gravitate towards systems programming, low-latency infrastructure, and understanding how things work close to the metal.
 
-💡 Passionate about software engineering, AI systems and **scalable full-stack applications**
+Currently building distributed systems in Go and fuzzing compiler runtimes in C — the kind of work where correctness and performance aren't optional.
 
-🚀 Seeking **Graduate Software Engineering roles in 2026**  
+## What I'm Working On
 
----
+**[DCache](https://github.com/aravinth-kanesh/distributed-cache)** — High-performance distributed in-memory cache in Go
+- Sharded concurrent map (256 shards, per-shard RWMutex) achieving 50M+ ops/sec on Apple M2
+- Redis-compatible RESP protocol layer — works with redis-cli out of the box
+- Sub-25ns p99 GET latency, lock-free atomic metrics, sync.Pool buffer recycling
+- 60+ commands across strings, lists, hash tables, and sets
 
-## 🌟 About Me  
+**Poly/ML Compiler Fuzzing Framework** — C, Standard ML, AFL++, LLVM, ASan/UBSan
+- First systematic fuzzing framework targeting Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
+- Persistent-mode AFL++ harness with LLVM LTO instrumentation and sanitiser integration
 
-- Strong academic record (**1st Class predicted**, 70%+ in all modules)  
-- Hands-on experience in full-stack development, **ML/AI** and workflow automation
-- Enthusiastic about building intelligent, user-focused software systems that solve meaningful problems
+**Real-Time Market Data Simulator** — Python, asyncio, NumPy
+- 1.3M+ ticks/second throughput with sub-100µs p99 latency
+- Geometric Brownian Motion price dynamics with per-subscriber queue isolation and backpressure handling
 
----
+## Experience
 
-## 🛠️ Tech Stack  
+**Software Engineer Intern — The Kusp Hub** (Summer 2025)
+- Built an AI-powered career matching platform; reduced pipeline latency by 95% (75s → 2s) through offline vector pre-computation and cached sentence-transformer embeddings
+- Engineered two-stage semantic matching: bi-encoder retrieval + category-weighted reranking with 97%+ accuracy in CV skill/experience extraction
 
-**Languages**  
+## Technical Skills
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Scala](https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**Languages:** Python, C/C++, Java, Go, Scala, JavaScript, SQL, Standard ML
 
-**Frameworks & Tools**  
+**Systems & Tools:** Docker, Git, AFL++, LLVM, ASan/UBSan, asyncio, NumPy
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+**Frameworks:** Flask, Django, React
 
-**Web & UI**  
+## Contact
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=for-the-badge)
-
----
-
-## 🔥 Featured Projects 
-
-### 🤖 LLM-Powered CV Matching Engine (Internship Project)  
-
-![Completed](https://img.shields.io/badge/Status-Completed-4caf50?style=for-the-badge)  
-
-**Technology Stack:** Python, Flask, Groq API (LLM), Sentence-Transformers, scikit-learn, pandas, JavaScript, HTML5, CSS3, Bootstrap, ReportLab   
-
-- Developed a **full-stack web application** to intelligently match CVs to creative industry roles (film/TV, advertising, fashion)
-- Built a **job matching engine** using **Sentence-Transformers** & **cosine similarity**, with a **re-ranking model** for weighted skills and experience alignment
-- Implemented an **offline pre-processing** pipeline to extract, categorise and **vectorise** skills & responsibilities from a job role database using an **LLM**
-- Engineered **dynamic CV processing** on upload; extracted text from PDF/DOCX files and generated structured skill and experience profiles
-- Created a 'Work Credits' generation feature that uses a **custom LLM prompt** to parse a CV and auto-generate a categorised portfolio, complete with an **interactive editor** and a PDF export function built with **ReportLab**
-- Built a **responsive frontend** with real-time search, input validation and **asynchronous backend communication**, backed by **Flask RESTful APIs**
-- **Optimised the AI pipeline** by reducing processing time **from ~75s to <2s**, and deployed the web app on **Render** for **production-ready hosting**
-  
-🔗 *Code not public due to internship IP; full details available in CV*
-
----
-
-### 🎬 ShowbizPredictor: Movie Revenue Predictor
-
-![Completed](https://img.shields.io/badge/Status-Completed-4caf50?style=for-the-badge)  
-
-**Technology Stack:** Python, scikit-learn, Random Forest, LightGBM, Streamlit, SHAP, Plotly 
-
-- Architected an end-to-end ML pipeline to process, clean and transform over 15,000 movie records, handling missing values and preparing data for modeling
-- Engineered a sophisticated feature set by implementing TF-IDF vectorisation with SVD for text data, multi-hot encoding for categorical variables, and creating composite numerical and temporal features
-- Implemented and systematically evaluated regression models (Random Forest and LightGBM) using cross-validation to ensure robust performance
-- Created a multi-page interactive dashboard using Streamlit, featuring four distinct analysis modes for real-time prediction, model comparison, data insights and performance analytics
-- Integrated advanced model explainability (XAI) using SHAP to generate waterfall plots and feature importance charts, providing transparent and interpretable predictions
-- Developed a clean, modular codebase following modern software engineering practices, with a clear separation of concerns between the core ML logic (src/) and the application layer (pages/)
-
----
-
-### 🏥 NHS Staff Rota Scheduler (University Group Project)  
-
-![Completed](https://img.shields.io/badge/Status-Completed-4caf50?style=for-the-badge)  
-
-**Technology Stack:** Python (Django), JavaScript, SQLite, Django ORM  
-
-- Contributed to a **full-stack web application** designed for **Barts Health NHS Trust** to manage scheduling, departmental management and shift assignments for 70 staff members  
-- Developed the **calendar view** for all user roles (Staff, Lead and Management) using **pair programming** with a team member
-- Assisted in the **design and implementation of a Role-Based Access Control (RBAC) system** for different user roles  
-- Supported development of a **leave request workflow**, including request submission, tracking and multi-level approvals  
-- Contributed **database design ideas** and collaborated on database management using Django ORM, supporting automated seeding and migrations  
-- Authored **unit tests covering 99% of the codebase** to ensure reliability and maintainability  
-- Collaborated in an **8-member Agile team** to deliver a robust, production-ready system  
-
-🔗 *Source code hosted under King’s College London’s private GitHub organisation (available on request)*
-
----
-
-## 📫 Connect with Me  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aravinth-kaneshalingam)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aravinth-kanesh)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aravinth_kanesh@hotmail.com)
-
-Thanks for stopping by! 😊
+[LinkedIn](https://www.linkedin.com/in/aravinth-kaneshalingam) · [Email](mailto:aravinth_kanesh@hotmail.com)
