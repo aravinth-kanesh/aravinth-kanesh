@@ -12,13 +12,13 @@ Currently building distributed systems in Go and fuzzing compiler runtimes in C 
 - Sub-25ns p99 GET latency, lock-free atomic metrics, sync.Pool buffer recycling
 - 60+ commands across strings, lists, hash tables, and sets
 
+**[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** — Python, asyncio, NumPy
+- 1.3M+ ticks/second throughput with sub-100µs p99 latency
+- Geometric Brownian Motion price dynamics with per-subscriber queue isolation and backpressure handling
+
 **Poly/ML Compiler Fuzzing Framework** — C, Standard ML, AFL++, LLVM, ASan/UBSan
 - First systematic fuzzing framework targeting Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
 - Persistent-mode AFL++ harness with LLVM LTO instrumentation and sanitiser integration
-
-**Real-Time Market Data Simulator** — Python, asyncio, NumPy
-- 1.3M+ ticks/second throughput with sub-100µs p99 latency
-- Geometric Brownian Motion price dynamics with per-subscriber queue isolation and backpressure handling
 
 ## Experience
 
