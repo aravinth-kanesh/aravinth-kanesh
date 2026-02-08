@@ -2,13 +2,13 @@
 
 Final-year Computer Science student at King's College London (Predicted First Class). I gravitate towards systems programming, low-latency infrastructure, and understanding how things work close to the metal.
 
-Currently building distributed systems in Go and fuzzing compiler runtimes in C — the kind of work where correctness and performance aren't optional.
+Currently building distributed systems in Go and fuzzing compiler runtimes in C - the kind of work where correctness and performance aren't optional.
 
 ## What I'm Working On
 
 **[DCache](https://github.com/aravinth-kanesh/distributed-cache)** — High-performance distributed in-memory cache in Go
 - Sharded concurrent map (256 shards, per-shard RWMutex) achieving 50M+ ops/sec on Apple M2
-- Redis-compatible RESP protocol layer — works with redis-cli out of the box
+- Redis-compatible RESP protocol layer - works with redis-cli out of the box
 - Sub-25ns p99 GET latency, lock-free atomic metrics, sync.Pool buffer recycling
 - 60+ commands across strings, lists, hash tables, and sets
 
