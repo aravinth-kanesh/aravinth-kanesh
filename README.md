@@ -7,10 +7,10 @@ Currently building distributed systems in Go and fuzzing compiler runtimes in C 
 ## What I'm Working On
 
 **[DCache](https://github.com/aravinth-kanesh/distributed-cache)** - High-performance distributed in-memory cache in Go
-- Sharded concurrent map (256 shards, per-shard RWMutex) achieving 50M+ ops/sec on Apple M2
-- Redis-compatible RESP protocol layer - works with redis-cli out of the box
-- Sub-25ns p99 GET latency, lock-free atomic metrics, sync.Pool buffer recycling
-- 60+ commands across strings, lists, hash tables, and sets
+- 256-shard concurrent map achieving 50M+ ops/sec with sub-25ns GET latency; 80+ Redis-compatible commands
+- AOF persistence (buffered-channel writer, configurable fsync) + CRC-32C binary snapshots for crash recovery
+- Async master-slave replication via PSYNC with bounded ring-buffer backlog and TCP connection hijacking
+- Prometheus observability with per-command latency histograms; Docker Compose stack with Grafana
 
 **[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** - Python, asyncio, NumPy
 - 1.3M+ ticks/second throughput with sub-100µs p99 latency
@@ -30,7 +30,7 @@ Currently building distributed systems in Go and fuzzing compiler runtimes in C 
 
 **Languages:** Python, C/C++, Java, Go, Scala, JavaScript, SQL, Standard ML
 
-**Systems & Tools:** Docker, Git, AFL++, LLVM, ASan/UBSan, asyncio, NumPy
+**Systems & Tools:** Docker, Git, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, Redis, Prometheus
 
 **Frameworks:** Flask, Django, React
 
