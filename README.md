@@ -13,8 +13,8 @@ Currently fuzzing compiler runtimes in C and exploring what comes next - the kin
 - Prometheus observability with per-command latency histograms; Docker Compose stack with Grafana
 
 **[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** - Python, asyncio, NumPy
-- 1.3M+ ticks/second throughput with sub-100µs p99 latency
-- Geometric Brownian Motion price dynamics with per-subscriber queue isolation and backpressure handling
+- 1.4M+ ticks/second raw generation throughput; 127k+ msg/s end-to-end delivery across 10 concurrent subscribers with zero message loss
+- Geometric Brownian Motion price simulation with asyncio fan-out, per-subscriber queue isolation, and sub-200µs p99 latency at normal trading rates
 
 ## Currently Building
 
@@ -26,7 +26,7 @@ Currently fuzzing compiler runtimes in C and exploring what comes next - the kin
 
 - Guarantees minimum-move solutions (≤20 moves, per God's Number) via IDA* with pattern databases
 - 88M-state corner pattern database stored as 4-bit nibbles (~42 MB); built once via BFS, loaded at runtime
-- Eliminated all encoding from the search hot path: coordinate move tables give O(1) heuristic evaluation — no arithmetic, just table lookups per node
+- Eliminated all encoding from the search hot path: coordinate move tables give O(1) heuristic evaluation - no arithmetic, just table lookups per node
 - Targets: 15-move scrambles < 1s, 18-move < 60s; 36-test suite validates optimality and solution correctness
 
 ## Experience
