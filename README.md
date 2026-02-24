@@ -2,7 +2,7 @@
 
 Final-year Computer Science student at King's College London (Predicted First Class). I gravitate towards systems programming, low-latency infrastructure, and understanding how things work close to the metal.
 
-Currently fuzzing compiler runtimes in C and exploring what comes next - the kind of work where correctness and performance aren't optional.
+Currently fuzzing compiler runtimes in C and building an optimal Rubik's cube solver in C++ - the kind of work where correctness and performance aren't optional.
 
 ## Key Projects
 
