@@ -22,6 +22,13 @@ Currently fuzzing compiler runtimes in C and exploring what comes next - the kin
 - First systematic fuzzing framework targeting Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
 - Persistent-mode AFL++ harness with LLVM LTO instrumentation and sanitiser integration
 
+**Optimal Rubik's Cube Solver** - C++17, CMake
+
+- Guarantees minimum-move solutions (≤20 moves, per God's Number) via IDA* with pattern databases
+- 88M-state corner pattern database stored as 4-bit nibbles (~42 MB); built once via BFS, loaded at runtime
+- Eliminated all encoding from the search hot path: coordinate move tables give O(1) heuristic evaluation — no arithmetic, just table lookups per node
+- Targets: 15-move scrambles < 1s, 18-move < 60s; 36-test suite validates optimality and solution correctness
+
 ## Experience
 
 **Software Engineer Intern - The Kusp Hub** (Summer 2025)
@@ -32,7 +39,7 @@ Currently fuzzing compiler runtimes in C and exploring what comes next - the kin
 
 **Languages:** Python, C/C++, Java, Go, Scala, JavaScript, SQL, Standard ML
 
-**Systems & Tools:** Docker, Git, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, Redis, Prometheus
+**Systems & Tools:** Docker, Git, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, Redis, Prometheus, CMake
 
 **Frameworks:** Flask, Django, React
 
