@@ -22,7 +22,7 @@ Currently fuzzing compiler runtimes in C and exploring what comes next - the kin
 - First systematic fuzzing framework targeting Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
 - Persistent-mode AFL++ harness with LLVM LTO instrumentation and sanitiser integration
 
-**Optimal Rubik's Cube Solver** - C++17, CMake
+**[Optimal Rubik's Cube Solver](https://github.com/aravinth-kanesh/optimal-cube)** - C++17, CMake
 
 - Guarantees minimum-move solutions (≤20 moves, per God's Number) via IDA* with pattern databases
 - 88M-state corner pattern database stored as 4-bit nibbles (~42 MB); built once via BFS, loaded at runtime
