@@ -4,7 +4,7 @@ Final-year Computer Science student at King's College London (Predicted First Cl
 
 Currently fuzzing compiler runtimes in C and exploring what comes next - the kind of work where correctness and performance aren't optional.
 
-## Projects
+## Key Projects
 
 **[DCache](https://github.com/aravinth-kanesh/distributed-cache)** - High-performance distributed in-memory cache in Go
 - 256-shard concurrent map achieving 50M+ ops/sec with sub-25ns GET latency; 80+ Redis-compatible commands
