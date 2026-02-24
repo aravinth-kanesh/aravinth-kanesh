@@ -2,9 +2,9 @@
 
 Final-year Computer Science student at King's College London (Predicted First Class). I gravitate towards systems programming, low-latency infrastructure, and understanding how things work close to the metal.
 
-Currently building distributed systems in Go and fuzzing compiler runtimes in C - the kind of work where correctness and performance aren't optional.
+Currently fuzzing compiler runtimes in C and exploring what comes next - the kind of work where correctness and performance aren't optional.
 
-## What I'm Working On
+## Projects
 
 **[DCache](https://github.com/aravinth-kanesh/distributed-cache)** - High-performance distributed in-memory cache in Go
 - 256-shard concurrent map achieving 50M+ ops/sec with sub-25ns GET latency; 80+ Redis-compatible commands
@@ -15,6 +15,8 @@ Currently building distributed systems in Go and fuzzing compiler runtimes in C 
 **[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** - Python, asyncio, NumPy
 - 1.3M+ ticks/second throughput with sub-100µs p99 latency
 - Geometric Brownian Motion price dynamics with per-subscriber queue isolation and backpressure handling
+
+## Currently Building
 
 **Poly/ML Compiler Fuzzing Framework** - C, Standard ML, AFL++, LLVM, ASan/UBSan
 - First systematic fuzzing framework targeting Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
