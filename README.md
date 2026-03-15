@@ -38,8 +38,8 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 
 - First systematic coverage-guided fuzzing framework for Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
 - Direct AFL++ binary fuzzing with LLVM LTO PCGUARD instrumentation; ASan/UBSan layered at runtime to avoid bootstrap failures
-- 72 curated SML seeds across two corpus subsets; two-phase lexer/parser campaign strategy with evolved queue handoff between phases
-- Pre-campaign UBSan overflow found in arm64.cpp:246; EC2 Graviton smoke tests: 1,698 edges, 25.24% libpolyml/ coverage, 1,178 exec/sec
+- 72 curated SML seeds; two-phase lexer/parser campaign strategy with evolved corpus handoff between phases
+- Pre-campaign UBSan overflow in arm64.cpp:246; EC2 Graviton: 1,698 edges, 25.24% libpolyml/ coverage, 1,178 exec/sec
 
 ## Experience
 
