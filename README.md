@@ -25,12 +25,12 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 - Prometheus observability with per-command latency histograms; Docker Compose 
   stack with Grafana
 
-**[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** - Python, asyncio, NumPy
+**[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** - Low-latency market data streaming engine · Python, asyncio, NumPy
 
-- 1.4M+ ticks/second raw generation throughput; 127k+ msg/s end-to-end delivery 
-  across 10 concurrent subscribers with zero message loss
-- Geometric Brownian Motion price simulation with asyncio fan-out, 
-  per-subscriber queue isolation, and sub-200µs p99 latency
+- 1.4M+ ticks/second raw generation throughput; 127k+ msg/s end-to-end delivery across 10 concurrent subscribers with sub-200µs p99 latency and zero message loss
+- GBM price dynamics with configurable volatility and drift; asyncio fan-out with per-subscriber queue isolation and backpressure handling
+- p50/p95/p99/p99.9 percentile tracking via NumPy vectorised operations, decoupled from the generation hot path
+- 53-test suite covering GBM statistical properties, backpressure behaviour, and sustained high-load end-to-end scenarios
 
 ## Currently Building
 
