@@ -14,7 +14,7 @@ My interests sit at the intersection of systems and security: compilers, memory 
 - Parallel search across 18 root moves with atomic abort; 12-move scrambles under 30ms, 32-test suite validates optimality
 
 **[DCache](https://github.com/aravinth-kanesh/distributed-cache)** - 
-High-performance distributed in-memory cache in Go
+High-performance distributed in-memory cache · Go, Docker, Prometheus
 
 - 256-shard concurrent map achieving 50M+ ops/sec with sub-25ns GET latency; 
   80+ Redis-compatible commands
