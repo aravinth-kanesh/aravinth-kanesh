@@ -24,8 +24,7 @@ High-performance distributed in-memory cache in Go
 - Prometheus observability with per-command latency histograms; Docker Compose 
   stack with Grafana
 
-**[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/
-market-data-simulator)** - Python, asyncio, NumPy
+**[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** - Python, asyncio, NumPy
 
 - 1.4M+ ticks/second raw generation throughput; 127k+ msg/s end-to-end delivery 
   across 10 concurrent subscribers with zero message loss
@@ -43,8 +42,7 @@ ASan/UBSan
 - Persistent-mode AFL++ harness with LLVM LTO instrumentation and 
   ASan/UBSan integration for crash triage
 
-**[Optimal Rubik's Cube Solver](https://github.com/aravinth-kanesh/
-optimal-cube)** - C++17, CMake
+**[Optimal Rubik's Cube Solver](https://github.com/aravinth-kanesh/optimal-cube)** - C++17, CMake
 
 - Guarantees minimum-move solutions (≤20 moves, God's Number) via IDA* with 
   pattern databases
