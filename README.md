@@ -1,14 +1,8 @@
 # Aravinth Kaneshalingam
 
-Final-year Computer Science student at King's College London (Predicted First 
-Class). I work close to the metal - systems programming, low-latency 
-infrastructure, and understanding exactly why things break.
+Final-year Computer Science student at King's College London (Predicted First Class). I work close to the metal - systems programming, low-latency infrastructure, and understanding exactly why things break.
 
-My interests sit at the intersection of systems and security: compilers, memory 
-safety, and how low-level vulnerabilities actually manifest. Currently building 
-a coverage-guided fuzzing framework targeting Poly/ML (the runtime at the core 
-of Isabelle/HOL's trusted computing base) and an optimal Rubik's cube solver 
-in C++.
+My interests sit at the intersection of systems and security: compilers, memory safety, and how low-level vulnerabilities actually manifest. Currently building a coverage-guided fuzzing framework targeting Poly/ML (the runtime at the core of Isabelle/HOL's trusted computing base).
 
 ## Projects
 
