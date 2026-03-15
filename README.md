@@ -10,7 +10,7 @@ My interests sit at the intersection of systems and security: compilers, memory 
 
 - Guarantees minimum-move solutions (≤20 moves, God's Number) via IDA* with pattern databases
 - 88M-state corner pattern database stored as 4-bit nibbles (~42 MB); three 6-edge partial DBs built via BFS
-- O(1) heuristic evaluation via coordinate move tables — no per-node arithmetic on the search hot path
+- O(1) heuristic evaluation via coordinate move tables - no per-node arithmetic on the search hot path
 - Parallel search across 18 root moves with atomic abort; 12-move scrambles under 30ms, 32-test suite validates optimality
 
 **[DCache](https://github.com/aravinth-kanesh/distributed-cache)** - 
