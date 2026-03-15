@@ -12,6 +12,13 @@ in C++.
 
 ## Projects
 
+**[Crux](https://github.com/aravinth-kanesh/crux)** - Optimal Rubik's Cube Solver · C++17, CMake
+
+- Guarantees minimum-move solutions (≤20 moves, God's Number) via IDA* with pattern databases
+- 88M-state corner pattern database stored as 4-bit nibbles (~42 MB); three 6-edge partial DBs built via BFS
+- O(1) heuristic evaluation via coordinate move tables — no per-node arithmetic on the search hot path
+- Parallel search across 18 root moves with atomic abort; 12-move scrambles under 30ms, 32-test suite validates optimality
+
 **[DCache](https://github.com/aravinth-kanesh/distributed-cache)** - 
 High-performance distributed in-memory cache in Go
 
@@ -41,16 +48,6 @@ ASan/UBSan
   behaviour in a runtime that formal verification tools depend on
 - Persistent-mode AFL++ harness with LLVM LTO instrumentation and 
   ASan/UBSan integration for crash triage
-
-**[Optimal Rubik's Cube Solver](https://github.com/aravinth-kanesh/optimal-cube)** - C++17, CMake
-
-- Guarantees minimum-move solutions (≤20 moves, God's Number) via IDA* with 
-  pattern databases
-- 88M-state corner pattern database stored as 4-bit nibbles (~42 MB); built once 
-  via BFS, loaded at runtime
-- O(1) heuristic evaluation via coordinate move tables - no arithmetic on the 
-  search hot path, just table lookups
-- 15-move scrambles < 1s, 18-move < 60s; 36-test suite validates optimality
 
 ## Experience
 
