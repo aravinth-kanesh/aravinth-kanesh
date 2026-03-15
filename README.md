@@ -45,18 +45,22 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 
 **Software Engineer Intern - The Kusp Hub** (Summer 2025)
 
-- Built an AI-powered career matching platform; reduced pipeline latency by 95% 
-  (75s → 2s) through offline vector pre-computation and cached 
-  sentence-transformer embeddings
-- Engineered two-stage semantic matching: bi-encoder retrieval + 
-  category-weighted reranking with 97%+ accuracy in CV skill/experience 
-  extraction
+- Architected AI-powered career discovery platform with 97%+ CV skill extraction 
+  accuracy using LLM structured outputs (Groq API) and coordinate-based 
+  multi-column PDF reconstruction with PyMuPDF
+- Engineered two-stage semantic job matcher combining sentence-transformer 
+  bi-encoder retrieval with category-weighted reranking; reduced pipeline latency 
+  by 95% (75s → 2s) through offline vector pre-computation
+- Built full-stack Flask application with async processing, confidence scoring and 
+  semantic match explanations; deployed to production on Render with Gunicorn
+- Developed work credits generator using custom LLM prompts to categorise and 
+  surface candidates' creative industry experience as a portfolio PDF
 
 ## Technical Skills
 
 **Languages:** Python, C/C++, Java, Go, Scala, JavaScript, SQL, Standard ML  
 
-**Systems & Tools:** Docker, Git, Bash, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, Redis, Prometheus, CMake
+**Systems & Tools:** Docker, Bash, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, Redis, Prometheus, CMake
 
 **Frameworks:** Flask, Django, React
 
