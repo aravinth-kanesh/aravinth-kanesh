@@ -55,8 +55,7 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 ## Technical Skills
 
 **Languages:** Python, C/C++, Java, Go, Scala, JavaScript, SQL, Standard ML  
-**Systems & Tools:** Docker, Git, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, 
-Redis, Prometheus, CMake  
+**Systems & Tools:** Docker, Git, Bash, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, Redis, Prometheus, CMake
 **Frameworks:** Flask, Django, React
 
 ## Contact
