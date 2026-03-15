@@ -43,7 +43,7 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 
 ## Experience
 
-**Software Engineer Intern - The Kusp Hub** (Summer 2025)
+**Software Engineer Intern - The Kusp Hub** (June - September 2025)
 
 - Architected AI-powered career discovery platform with 97%+ CV skill extraction 
   accuracy using LLM structured outputs (Groq API) and coordinate-based 
