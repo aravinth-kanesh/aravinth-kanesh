@@ -2,9 +2,16 @@
 
 Final-year Computer Science student at King's College London (Predicted First Class). I work close to the metal - systems programming, low-latency infrastructure, and understanding exactly why things break.
 
-My interests sit at the intersection of systems and security: compilers, memory safety, and how low-level vulnerabilities actually manifest. Currently building a coverage-guided fuzzing framework targeting Poly/ML (the runtime at the core of Isabelle/HOL's trusted computing base).
+My interests sit at the intersection of systems and security: compilers, memory safety, and how low-level vulnerabilities actually manifest. I built a coverage-guided fuzzing framework targeting Poly/ML (the runtime at the core of Isabelle/HOL's trusted computing base), finding UBSan and memory safety bugs in ARM64-specific compiler code.
 
 ## Projects
+
+**Trust Me, I am a Verifier! (Or should you?) - Fuzzing the Poly/ML Compiler** · C, Standard ML, AFL++, LLVM, ASan/UBSan
+
+- First systematic coverage-guided fuzzing framework for Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
+- Direct AFL++ binary fuzzing with LLVM LTO PCGUARD instrumentation; ASan/UBSan layered at runtime to avoid bootstrap failures; CMPLOG and rare power schedule added for Phase 2
+- 72 curated SML seeds + Isabelle/HOL corpus; two-phase lexer/parser strategy with afl-cmin minimisation and evolved corpus handoff between phases
+- Pre-campaign UBSan overflow in `arm64.cpp:246`; SIGSEGV crashes in module elaboration; EC2 Graviton: 2,017 edges, 28.57% `libpolyml/` coverage, ~24.9 exec/sec (Phase 1)
 
 **[Crux](https://github.com/aravinth-kanesh/crux)** - Optimal Rubik's Cube Solver · C++17, CMake
 
@@ -31,15 +38,6 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 - GBM price dynamics; asyncio fan-out with per-subscriber queue isolation and backpressure handling
 - p50/p95/p99/p99.9 percentile tracking via NumPy vectorised operations, decoupled from the generation hot path
 - 53-test suite covering GBM statistical properties, backpressure behaviour, and high-load end-to-end scenarios
-
-## Currently Building
-
-**Trust Me, I am a Verifier! (Or should you?) - Fuzzing the Poly/ML Compiler** · C, Standard ML, AFL++, LLVM, ASan/UBSan
-
-- First systematic coverage-guided fuzzing framework for Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
-- Direct AFL++ binary fuzzing with LLVM LTO PCGUARD instrumentation; ASan/UBSan layered at runtime to avoid bootstrap failures; CMPLOG and rare power schedule added for Phase 2
-- 72 curated SML seeds + Isabelle/HOL corpus; two-phase lexer/parser strategy with afl-cmin minimisation and evolved corpus handoff between phases
-- Pre-campaign UBSan overflow in `arm64.cpp:246`; SIGSEGV crashes in module elaboration; EC2 Graviton: 2,017 edges, 28.57% `libpolyml/` coverage, ~24.9 exec/sec (Phase 1)
 
 ## Experience
 
