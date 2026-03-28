@@ -41,9 +41,9 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 
 **[Auteur](https://github.com/aravinth-kanesh/auteur)** - Personal cinema intelligence engine · Python, FastAPI, React, ChromaDB, SQLite
 
-- Local RAG pipeline: sentence-transformers embeddings over watch history stored in ChromaDB; semantic retrieval drives a streaming conversational AI (Ollama / Anthropic)
-- Progressive taste profiling — fast DB-only stats endpoint + async LLM endpoint for cinematic identity summary and hidden pattern detection
-- Full-stack: FastAPI backend with SQLite persistence, React + Tailwind frontend with real-time streaming chat and filter/sort history browser
+- Local RAG pipeline: sentence-transformers embeddings in ChromaDB; semantic retrieval drives a streaming conversational AI (Ollama / Anthropic)
+- Progressive taste profiling: fast DB-only stats endpoint + async LLM endpoint for cinematic identity and hidden pattern detection
+- Full-stack: FastAPI + SQLite backend, React + Tailwind frontend with real-time streaming chat and filter/sort history browser
 
 ## Experience
 
