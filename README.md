@@ -39,6 +39,12 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 - p50/p95/p99/p99.9 percentile tracking via NumPy vectorised operations, decoupled from the generation hot path
 - 53-test suite covering GBM statistical properties, backpressure behaviour, and high-load end-to-end scenarios
 
+**[Auteur](https://github.com/aravinth-kanesh/auteur)** - Personal cinema intelligence engine · Python, FastAPI, React, ChromaDB, SQLite
+
+- Local RAG pipeline: sentence-transformers embeddings over watch history stored in ChromaDB; semantic retrieval drives a streaming conversational AI (Ollama / Anthropic)
+- Progressive taste profiling — fast DB-only stats endpoint + async LLM endpoint for cinematic identity summary and hidden pattern detection
+- Full-stack: FastAPI backend with SQLite persistence, React + Tailwind frontend with real-time streaming chat and filter/sort history browser
+
 ## Experience
 
 **Software Engineer Intern - The Kusp Hub** (June - September 2025)
@@ -60,7 +66,7 @@ High-performance distributed in-memory cache · Go, Docker, Prometheus
 
 **Systems & Tools:** Docker, Bash, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, Redis, Prometheus, CMake
 
-**Frameworks:** Flask, Django, React
+**Frameworks:** Flask, Django, React, FastAPI
 
 ## Contact
 
