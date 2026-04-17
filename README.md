@@ -6,12 +6,12 @@ My interests sit at the intersection of systems and security: compilers, memory 
 
 ## Projects
 
-**Trust Me, I am a Verifier! (Or should you?) - Fuzzing the Poly/ML Compiler** · C, Standard ML, AFL++, LLVM, ASan/UBSan
+**[Trust Me, I am a Verifier! (Or should you?) - Fuzzing the Poly/ML Compiler](https://github.com/aravinth-kanesh/polyml-fuzz)** · C, Standard ML, AFL++, LLVM, ASan/UBSan
 
 - First systematic coverage-guided fuzzing framework for Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
 - Direct AFL++ binary fuzzing with LLVM LTO PCGUARD instrumentation; ASan/UBSan layered at runtime to avoid bootstrap failures; CMPLOG and rare power schedule added for Phase 2
 - 72 curated SML seeds + Isabelle/HOL corpus; two-phase lexer/parser strategy with afl-cmin minimisation and evolved corpus handoff between phases
-- Pre-campaign UBSan overflow in `arm64.cpp:246`; SIGSEGV crashes in module elaboration; EC2 Graviton: 2,017 edges, 28.57% `libpolyml/` coverage, ~24.9 exec/sec (Phase 1)
+- Found 4 reliability findings in upstream Poly/ML: ARM64-specific UBSan overflow in arm64.cpp:246, lexer OOM on pathological float literals, and 3 SIGSEGV crashes from a type safety defect in overloading resolution; all unpatched upstream; two fixes validated locally
 
 **[Crux](https://github.com/aravinth-kanesh/crux)** - Optimal Rubik's Cube Solver · C++17, CMake
 
