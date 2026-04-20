@@ -11,7 +11,7 @@ My interests sit at the intersection of systems and security: compilers, memory 
 - First systematic coverage-guided fuzzing framework for Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
 - Direct AFL++ binary fuzzing with LLVM LTO PCGUARD instrumentation; ASan/UBSan layered at runtime to avoid bootstrap failures; CMPLOG and rare power schedule added for Phase 2
 - 72 curated SML seeds + Isabelle/HOL corpus; two-phase lexer/parser strategy with afl-cmin minimisation and evolved corpus handoff between phases
-- Found 4 reliability findings in upstream Poly/ML: ARM64-specific UBSan overflow in arm64.cpp:246, lexer OOM on pathological float literals, and 3 SIGSEGV crashes from a type safety defect in overloading resolution; the overloading defect was confirmed and fixed by the Poly/ML team in cf7b84a following this bug report; two fixes validated locally
+- Found 4 reliability findings in upstream Poly/ML: ARM64-specific UBSan overflow in arm64.cpp:246, lexer OOM on pathological float literals, and 3 SIGSEGV crashes from a type safety defect in overloading resolution; the overloading defect was confirmed and fixed by the Poly/ML team in cf7b84a
 
 **[Crux](https://github.com/aravinth-kanesh/crux)** - Optimal Rubik's Cube Solver · C++17, CMake
 
