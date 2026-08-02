@@ -1,75 +1,29 @@
 # Aravinth Kaneshalingam
 
-Final-year Computer Science student at King's College London (Predicted First Class). I work close to the metal - systems programming, low-latency infrastructure, and understanding exactly why things break.
-
-My interests sit at the intersection of systems and security: compilers, memory safety, and how low-level vulnerabilities actually manifest. I built a coverage-guided fuzzing framework targeting Poly/ML (the runtime at the core of Isabelle/HOL's trusted computing base), finding UBSan and memory safety bugs in ARM64-specific compiler code.
+I like taking things apart until I understand exactly how they work — these days that's mostly LLMs and AI systems, with some compilers and distributed systems in the mix.
 
 ## Projects
 
-**[Trust Me, I am a Verifier! (Or should you?) - Fuzzing the Poly/ML Compiler](https://github.com/aravinth-kanesh/polyml-fuzz)** · C, Standard ML, AFL++, LLVM, ASan/UBSan
+**[Fuzzing the Poly/ML Compiler](https://github.com/aravinth-kanesh/polyml-fuzz)** · C, LLVM, AFL++
+First systematic coverage-guided fuzzer for Poly/ML (Isabelle/HOL's trusted computing base) on ARM64. Dissertation, 84%. Found 3 defects, including one confirmed and fixed upstream, and an ARM64 overflow I diagnosed with a proposed fix.
 
-- First systematic coverage-guided fuzzing framework for Poly/ML (Isabelle/HOL's trusted computing base) on ARM64
-- Direct AFL++ binary fuzzing with LLVM LTO PCGUARD instrumentation; ASan/UBSan layered at runtime to avoid bootstrap failures; CMPLOG and rare power schedule added for Phase 2
-- 72 curated SML seeds + Isabelle/HOL corpus; two-phase lexer/parser strategy with afl-cmin minimisation and evolved corpus handoff between phases
-- Found 3 distinct defects in upstream Poly/ML: ARM64-specific UBSan overflow in arm64.cpp:246, lexer OOM on pathological float literals, and a type safety defect in overloading resolution (producing 3 SIGSEGV crashes across two distinct inputs)
-- Overloading defect confirmed and fixed upstream in cf7b84a following this bug report; two fixes proposed and validated locally
+**[DCache](https://github.com/aravinth-kanesh/distributed-cache)** · Go, Redis protocol
+Redis-compatible distributed cache. 50M+ ops/sec, sub-25ns GET latency across a 256-shard concurrent map.
 
-**[Crux](https://github.com/aravinth-kanesh/crux)** - Optimal Rubik's Cube Solver · C++17, CMake
+**[Crux](https://github.com/aravinth-kanesh/crux)** · C++, CMake
+Optimal Rubik's Cube solver. Guarantees ≤20-move solutions via IDA* with pattern databases; solves 12-move scrambles in under 30ms.
 
-- Guarantees minimum-move solutions (≤20 moves, God's Number) via IDA* with pattern databases
-- 88M-state corner pattern database stored as 4-bit nibbles (~42 MB); three 6-edge partial DBs built via BFS
-- O(1) heuristic evaluation via coordinate move tables - no per-node arithmetic on the search hot path
-- Parallel search across 18 root moves with atomic abort; 12-move scrambles under 30ms, 32-test suite validates optimality
+**[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** · Python, asyncio
+Streaming market data engine. 1.4M+ ticks/sec, sub-200µs p99 latency, zero message loss.
 
-**[DCache](https://github.com/aravinth-kanesh/distributed-cache)** - 
-High-performance distributed in-memory cache · Go, Docker, Prometheus
-
-- 256-shard concurrent map achieving 50M+ ops/sec with sub-25ns GET latency; 
-  80+ Redis-compatible commands
-- AOF persistence (buffered-channel writer, configurable fsync) + CRC-32C binary 
-  snapshots for crash recovery
-- Async master-slave replication via PSYNC with bounded ring-buffer backlog and 
-  TCP connection hijacking
-- Prometheus observability with per-command latency histograms; Docker Compose 
-  stack with Grafana
-
-**[Real-Time Market Data Simulator](https://github.com/aravinth-kanesh/market-data-simulator)** - Low-latency market data streaming engine · Python, asyncio, NumPy
-
-- 1.4M+ ticks/s raw generation; 127k+ msg/s end-to-end across 10 subscribers with sub-200µs p99 latency and zero loss
-- GBM price dynamics; asyncio fan-out with per-subscriber queue isolation and backpressure handling
-- p50/p95/p99/p99.9 percentile tracking via NumPy vectorised operations, decoupled from the generation hot path
-- 53-test suite covering GBM statistical properties, backpressure behaviour, and high-load end-to-end scenarios
-
-**[Auteur](https://github.com/aravinth-kanesh/auteur)** - Personal cinema intelligence engine · Python, FastAPI, React, ChromaDB, SQLite
-
-- Local RAG pipeline: sentence-transformers embeddings in ChromaDB; semantic retrieval drives a streaming conversational AI (Ollama / Anthropic)
-- Progressive taste profiling: fast DB-only stats endpoint + async LLM endpoint for cinematic identity and hidden pattern detection
-- Full-stack: FastAPI + SQLite backend, React + Tailwind frontend with real-time streaming chat and filter/sort history browser
+**[Auteur](https://github.com/aravinth-kanesh/auteur)** · Python, FastAPI, React
+Local RAG app that builds a conversational "cinematic identity" profile from personal watch history.
 
 ## Experience
 
-**Software Engineer Intern - The Kusp Hub** (June - September 2025)
-
-- Architected AI-powered career discovery platform with 97%+ CV skill extraction 
-  accuracy using LLM structured outputs (Groq API) and coordinate-based 
-  multi-column PDF reconstruction with PyMuPDF
-- Engineered two-stage semantic job matcher combining sentence-transformer 
-  bi-encoder retrieval with category-weighted reranking; reduced pipeline latency 
-  by 95% (75s → 2s) through offline vector pre-computation
-- Built full-stack Flask application with async processing, confidence scoring and 
-  semantic match explanations; deployed to production on Render with Gunicorn
-- Developed work credits generator using custom LLM prompts to categorise and 
-  surface candidates' creative industry experience as a portfolio PDF
-
-## Technical Skills
-
-**Languages:** Python, C/C++, Java, Go, Scala, JavaScript, SQL, Standard ML  
-
-**Systems & Tools:** Docker, Bash, AFL++, LLVM, ASan/UBSan, asyncio, NumPy, Redis, Prometheus, CMake
-
-**Frameworks:** Flask, Django, React, FastAPI
+**Software Engineer Intern, The Kusp Hub** — Jun–Sep 2025
+Built an AI-powered career discovery platform: LLM-based CV extraction and a semantic job-matching pipeline, cutting latency from 75s to under 2s.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/aravinth-kaneshalingam) · 
-[Email](mailto:aravinth_kanesh@hotmail.com)
+[LinkedIn](https://www.linkedin.com/in/aravinth-kaneshalingam) · aravinth_kanesh@hotmail.com
