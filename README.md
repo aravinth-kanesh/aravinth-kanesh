@@ -2,6 +2,7 @@
 
 I like taking things apart until I understand exactly how they work - these days that's mostly LLMs and AI systems, with some compilers and distributed systems in the mix.
 
+
 ## Projects
 
 **[Fuzzing the Poly/ML Compiler](https://github.com/aravinth-kanesh/polyml-fuzz)**: C · LLVM · AFL++
@@ -27,6 +28,7 @@ Streaming market data engine. 1.4M+ ticks/sec, sub-200μs p99 latency, zero mess
 **[Auteur](https://github.com/aravinth-kanesh/auteur)**: Python · FastAPI · React
 
 Local RAG app that turns your personal watch history into a conversational "cinematic identity" you can explore.
+
 
 ## Experience
 
