@@ -1,7 +1,17 @@
-# Aravinth Kaneshalingam
+<h1 align="center">Aravinth Kaneshalingam</h1>
 
-I like taking things apart until I understand exactly how they work - these days that's mostly LLMs and AI systems, with some compilers and distributed systems in the mix.
+<p align="center">
+  I like taking things apart until I understand exactly how they work - these days
+  that's mostly LLMs and AI systems, with some compilers and distributed systems in the mix.
+</p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/aravinth-kaneshalingam">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:aravinth_kanesh@hotmail.com">aravinth_kanesh@hotmail.com</a>
+</p>
+
+---
 
 ## Projects
 
@@ -32,19 +42,14 @@ Local RAG app that turns your personal watch history into a conversational "cine
 
 ## Experience
 
-**Graduate Software Engineer, UnderwriteMe** - Sep 2026-present
+**Graduate Software Engineer, UnderwriteMe** — Sep 2026–present
 
 AI Engine team, Decision Platform.
 
-**Undergraduate Research Fellow (KURF), King's College London** - Jun-Sep 2026
+**Undergraduate Research Fellow (KURF), King's College London** — Jun–Sep 2026
 
 Solo research project on AI-assisted interview preparation: designed and built Ante and a mixed-methods study to evaluate it with students.
 
-**Software Engineer Intern, The Kusp Hub** - Jun-Sep 2025
+**Software Engineer Intern, The Kusp Hub** — Jun–Sep 2025
 
 Built an AI-powered career discovery platform: LLM-based CV extraction and a semantic job-matching pipeline, cutting latency from 75s to under 2s.
-
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/aravinth-kaneshalingam) · aravinth_kanesh@hotmail.com
