@@ -42,14 +42,14 @@ Local RAG app that turns your personal watch history into a conversational "cine
 
 ## Experience
 
-**Graduate Software Engineer, UnderwriteMe** — Sep 2026–present
+**Graduate Software Engineer, UnderwriteMe** - Sep 2026-present
 
 AI Engine team, Decision Platform.
 
-**Undergraduate Research Fellow (KURF), King's College London** — Jun–Sep 2026
+**Undergraduate Research Fellow (KURF), King's College London** - Jun-Sep 2026
 
 Solo research project on AI-assisted interview preparation: designed and built Ante and a mixed-methods study to evaluate it with students.
 
-**Software Engineer Intern, The Kusp Hub** — Jun–Sep 2025
+**Software Engineer Intern, The Kusp Hub** - Jun-Sep 2025
 
 Built an AI-powered career discovery platform: LLM-based CV extraction and a semantic job-matching pipeline, cutting latency from 75s to under 2s.
